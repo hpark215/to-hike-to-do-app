@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.2.0-beta1-dist/css/bootstrap.css"
+    />
+
+    <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist/css/app.css" />
+    <link rel="icon" href='./person-simple-run.png'>
+    <title>To Hike</title>
+  </head>
+
+  <body>
+    <!-- sky section and also most of the background -->
+    <div class="sky">
+      <div class="tasks">
+        <!--  -->
+        <div class="">
+          <label for="task1" class="task-label">Task 1: </label>
+          <input id="task1" class="task-input" />
+          <button type="submit" class="subBtn" id="submitBtn1">&#10004</button>
+          <button type="reset" class="cancelBtn" id="cancelBtn1">&#10008</button>
+        </div>
+
+        <div class="">
+          <label for="task2" class="task-label">Task 2: </label>
+          <input id="task2" class="task-input" />
+          <button type="submit" class="subBtn" id="submitBtn2">&#10004</button>
+          <button type="reset" class="cancelBtn" id="cancelBtn2">	&#10008</button>
+        </div>
+
+        <div class="">
+          <label for="task3" class="task-label">Task 3: </label>
+          <input id="task3" class="task-input" />
+          <button type="submit" class="subBtn" id="submitBtn3">&#10004</button>
+          <button type="reset" class="cancelBtn" id="cancelBtn3">&#10008</button>
+        </div>
+
+        <div class="">
+          <label for="task4" class="task-label">Task 4: </label>
+          <input id="task4" class="task-input" />
+          <button type="submit" class="subBtn" id="submitBtn4">&#10004</button>
+          <button type="reset" class="cancelBtn" id="cancelBtn4">&#10008</button>
+        </div>
+
+        <div class="">
+          <label for="task5" class="task-label">Task 5: </label>
+          <input id="task5" class="task-input" />
+          <button type="submit" class="subBtn" id="submitBtn5">&#10004</button>
+          <button type="reset" class="cancelBtn" id="cancelBtn5">&#10008</button>
+        </div>
+      </div>
+
+      <!-- The secret messages  -->
+
+      <!-- message number 1 -->
+      <div class="intro">
+        <p class="intro_msg" id="intro_msg">First write all your tasks and then finish them one by one!</p>
+      </div>
+
+      <!-- message number 2 -->
+
+      <div class="secondMessage" >
+        <p class="msg_two disappear" id="msg_two">Task 1 completed, keep going 💪🏽</p>
+      </div>
+
+      <!-- message number 3 -->
+
+      <div class="third_msg">
+        <p class="msg_three disappear" id="msg_three">Almost Halfway!, no pain no gain</p>
+      </div>
+
+      <!-- message number 4 -->
+      <div class="fourth_msg">
+        <p class="msg_three disappear" id="msg_four">Two more tasks left :)</p>
+      </div>
+
+      <!-- message number 5 -->
+      <div class="fifth_msg">
+        <p class="msg_five disappear" id="msg_five">One last time</p>
+      </div>
+
+
+      <!-- last message -->
+      <div>
+        <p class="finishing_msg disappear" id="congrats_msg">Well done you have finished!</p>
+      </div>
+
+
+      <!-- the mountaine inside  -->
+      <div class="mountain"></div>
+      <!--  -->
+
+      <!-- person running icon-->
+      <svg class="runningGuy" id="runningGuy" xmlns="http://www.w3.org/2000/svg" width="192" height="192" fill="#000000" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><circle cx="152" cy="56" r="24" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></circle><path d="M56,101.6s32-29.6,80,8c50.5,39.4,80,24,80,24" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></path><path d="M135.1,108.8C130.7,129.2,101.6,207,32,200" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></path><path d="M110.6,161.2C128.5,165,176,180,176,232" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></path></svg>
+    </div>
+
+    <!--  -->
+    <script src="app.js"></script>
+  </body>
+</html>

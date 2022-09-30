@@ -1,0 +1,116 @@
+.sky {
+  background-color: #a5d8ff;
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.tasks {
+  height: 100%;
+  width: 100%;
+  padding: 10rem 2rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  justify-content: left;
+}
+
+.task-label {
+  color: #a27b5c;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.task-input {
+  width: 10rem;
+}
+
+.mountain {
+  width: 0;
+  height: 0;
+  border-left: 200px solid transparent;
+  border-right: 200px solid transparent;
+  border-bottom: 400px solid #a27b5c;
+}
+
+/* css properties for the cancel and submit buttons */
+
+.subBtn {
+  background-color: #40c057;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 40%;
+}
+
+.cancelBtn {
+  background-color: #f03e3e;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 40%;
+}
+
+/* running guy icon */
+.runningGuy {
+  margin: 0%;
+  padding: 0%;
+  transform: translate(-50ch, 2rem);
+}
+
+.moveLevelOne {
+  transform: translate(-45ch, -3rem);
+}
+
+.moveLevelTwo {
+  transform: translate(-40ch, -10rem);
+}
+
+.moveLevelThree {
+  transform: translate(-25ch, -22rem);
+}
+
+.moveLevelFour {
+  transform: translate(-10ch, -10rem);
+}
+.moveLevelFive {
+  transform: translate(-2ch, 2rem);
+}
+
+/* The messages */
+
+/* The finish message hidden and display */
+
+.intro_msg {
+  font-size: 1.2rem;
+  font-weight: 900;
+
+  position: absolute;
+  top: 50px;
+  right: 30px;
+  margin: 100px;
+}
+
+.msg_two,
+.msg_three,
+.msg_four,
+.msg_five,
+.finishing_msg {
+  font-size: 1.2rem;
+  font-weight: 900;
+
+  position: absolute;
+  top: 50px;
+  right: 30px;
+  margin: 100px;
+}
+
+.disappear {
+  display: none;
+}
+
+.appear {
+  display: block;
+}
